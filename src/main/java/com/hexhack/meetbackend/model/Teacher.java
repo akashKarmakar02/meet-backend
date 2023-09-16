@@ -28,9 +28,9 @@ public class Teacher implements UserDetails {
     private String email;
 
     private String password;
-
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    private College college_id;
+//
+//    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+//    private College college_id;
 
     @Enumerated(EnumType.STRING)
     private Role role;
